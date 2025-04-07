@@ -1,43 +1,43 @@
 # XFCE Customization Guide 
 
-<img align="right" height="192" width="341" src="https://github.com/diws1/xfce/blob/main/screenshot/xfce%20blumon.png" alt="image" />
+<img align="right" height="192" width="341" src="https://github.com/ad1w/xfce-customguide/blob/main/screenshot/xfce%20blumon.png" alt="image" />
 This repository is dominated by how to customize the xfce desktop, <s>especially the panels which can be much more flexible, but are not included in the default panel settings</s> various things that can be hacked in xfce desktop environtment will be explained here. There are many ways to customize the xfce desktop, and this repository is one of them while still prioritizing simplicity and efficiency of <b><i>ram</i></b> and <b><i>cpu</i></b> usage.
   
 # Table of Contents
-- [XFCE PANEL](https://github.com/diws1/xfce-rice?tab=readme-ov-file#panel)
-  - [Restart panel](https://github.com/diws1/xfce-rice?tab=readme-ov-file#restart-panel)
-  - [Styling](https://github.com/diws1/xfce-rice?tab=readme-ov-file#styling)
-  - [Transform](https://github.com/diws1/xfce-rice?tab=readme-ov-file#transform)
-  - [Using various icons](https://github.com/diws1/xfce-rice?tab=readme-ov-file#using-various-icons)
-  - [Fake effect in xfce panel](https://github.com/diws1/xfce-rice?tab=readme-ov-file#fake-effect-in-xfce-panel)
-  - [Launcher ID](https://github.com/diws1/xfce-rice?tab=readme-ov-file#launcher-id)
-  - [Global settings](https://github.com/diws1/xfce-rice?tab=readme-ov-file#global-settings)
-  - [Whisker menu](https://github.com/diws1/xfce-rice?tab=readme-ov-file#whisker-menu)
-  - [Workspace styling](https://github.com/diws1/xfce-rice?tab=readme-ov-file#workspace-styling)
-  - [Window button](https://github.com/diws1/xfce-rice?tab=readme-ov-file#window-button)
-  - [Notification Plugin](https://github.com/diws1/xfce-rice?tab=readme-ov-file#notification-plugin)
-  - [Pulse Audio Plugin](https://github.com/diws1/xfce-rice?tab=readme-ov-file#pulse-audion-plugin)
-  - [Battery Plugin](https://github.com/diws1/xfce-rice?tab=readme-ov-file#battery-plugin)
-  - [Date/Clock](https://github.com/diws1/xfce-rice?tab=readme-ov-file#date/clock)
-  - [Another Launcher](https://github.com/diws1/xfce-rice?tab=readme-ov-file#another-launcher)
-  - [Replace to another panel](https://github.com/diws1/xfce-rice?tab=readme-ov-file#replace-to-another-panel)
+- [XFCE PANEL](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#panel)
+  - [Restart panel](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#restart-panel)
+  - [Styling](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#styling)
+  - [Transform](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#transform)
+  - [Using various icons](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#using-various-icons)
+  - [Fake effect in xfce panel](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#fake-effect-in-xfce-panel)
+  - [Launcher ID](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#launcher-id)
+  - [Global settings](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#global-settings)
+  - [Whisker menu](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#whisker-menu)
+  - [Workspace styling](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#workspace-styling)
+  - [Window button](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#window-button)
+  - [Notification Plugin](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#notification-plugin)
+  - [Pulse Audio Plugin](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#pulse-audion-plugin)
+  - [Battery Plugin](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#battery-plugin)
+  - [Date/Clock](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#date/clock)
+  - [Another Launcher](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#another-launcher)
+  - [Replace to another panel](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#replace-to-another-panel)
 
-- [WINDOW MANAGER](https://github.com/diws1/xfce-rice?tab=readme-ov-file#window-manager)
-  - [XFWM standalone](https://github.com/diws1/xfce-rice?tab=readme-ov-file#xfwm-standalone)
-  - [Shortcut](https://github.com/diws1/xfce-rice?tab=readme-ov-file#shortcut)
-  - [Compositor](https://github.com/diws1/xfce-rice?tab=readme-ov-file#compositor)
-  - [Replace to another window manager](https://github.com/diws1/xfce-rice?tab=readme-ov-file#replace-to-another-window-manager)
-  - [Tittle/button](https://github.com/diws1/xfce-rice?tab=readme-ov-file#title/button)
+- [WINDOW MANAGER](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#window-manager)
+  - [XFWM standalone](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#xfwm-standalone)
+  - [Shortcut](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#shortcut)
+  - [Compositor](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#compositor)
+  - [Replace to another window manager](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#replace-to-another-window-manager)
+  - [Tittle/button](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#title/button)
 
-- [XFCE TERMINAL](https://github.com/diws1/xfce-rice?tab=readme-ov-file#xfce-terminal)
-  - [Adding new theme](https://github.com/diws1/xfce-rice?tab=readme-ov-file#adding-new-theme)
+- [XFCE TERMINAL](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#xfce-terminal)
+  - [Adding new theme](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#adding-new-theme)
 
-- [SCREENSHOTS](https://github.com/diws1/xfce-rice?tab=readme-ov-file#screenshots)
-- [REFERENCES](https://github.com/diws1/xfce-rice?tab=readme-ov-file#references)
+- [SCREENSHOTS](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#screenshots)
+- [REFERENCES](https://github.com/ad1w/xfce-customguide?tab=readme-ov-file#references)
 
 ## XFCE PANEL
 By default, to customize the xfce panel you only need to right click on the panel, then select Panel Preferences.\
-However, if you want to customize the xfce panel freely, you can create a [<b>gtk.css</b>](https://github.com/diws1/xfce-rice/blob/main/.config/gtk-3.0/gtk.css) file in the <i>~/.config/gtk-3.0/</i> folder.
+However, if you want to customize the xfce panel freely, you can create a [<b>gtk.css</b>](https://github.com/ad1w/xfce-customguide/blob/main/.config/gtk-3.0/gtk.css) file in the <i>~/.config/gtk-3.0/</i> folder.
 >[!NOTE]
 ><i>gtk.css</i> file are like exterior paint. You need to arrange the items on your panels with the default panel settings, then <i>gtk.css</i> will color it.
 
@@ -375,10 +375,10 @@ xfce4-panel -r
 
 ## SCREENSHOTS
 <p align="center">
-<img height="192" width="341" src="https://github.com/diws1/xfce/blob/main/screenshot/xfce%20nelo.png" hspace="10"/>
-<img height="192" width="341" src="https://github.com/diws1/xfce/blob/main/screenshot/xfce%20aestethic.png" hspace="10"/>
-<img height="192" width="341" src="https://github.com/diws1/xfce/blob/main/screenshot/xfce%20blumon.png" hspace="10"/>
-
+<img height="192" width="341" src="https://github.com/ad1w/xfce-customguide/blob/main/screenshot/xfce%20nelo.png" hspace="10"/>
+<img height="192" width="341" src="https://github.com/ad1w/xfce-customguide/blob/main/screenshot/xfce%20aestethic.png" hspace="10"/>
+<img height="192" width="341" src="https://github.com/ad1w/xfce-customguide/blob/main/screenshot/xfce%20blumon.png" hspace="10"/>
+<img height="192" width="341" src="https://github.com/ad1w/xfce-customguide/blob/main/screenshot/xfce%20elegant.png" hspace="10"/>
 </p>
 
 ## REFERENCES
@@ -472,7 +472,6 @@ and
 
 <i>Blumon</i>
 ![My Image](https://github.com/diws1/xfce/blob/main/screenshot/xfce%20blumon.png)
-
 
 
 ## Tips & Tricks
