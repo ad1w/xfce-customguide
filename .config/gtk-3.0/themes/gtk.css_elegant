@@ -22,6 +22,7 @@ Panel Settings
 	Length: automatic
 	Fixed icon size: automatic
 	Hide panel: Intelligently
+	Background: solid color #D0D0D0 (opacity: full)
 
 Appearance
 	Theme: Adwaita-Dark
@@ -47,6 +48,7 @@ Bottom:
 t : tasklist/window button
 b : battery/power manager plugin
 s : volume/pulse audio plugin
+n : notification
 LO: Log Out
 o : launcher
 | : separator
@@ -177,6 +179,11 @@ o : launcher
         border-top-right-radius: 4px;
         margin: 4px;
         padding: 5px;
+}
+
+#xfce4-notification-plugin image {
+	-gtk-icon-theme: 'Papirus';
+        -gtk-icon-transform: scale(0.8); margin: -10px;
 }
 
 
