@@ -33,7 +33,7 @@ Appearance
 	Title Font: Sans Regular 9
 
 Note: Some items have launcher-ID, for ex: #pager-32, #launcher-10, etc.
-The launcher-ID  is obtained by hovering the mouse over the plugin in the panel properties.
+The launcher-ID is obtained by hovering the mouse over the plugin in the panel properties.
 
 Panel Structure
 Top:
